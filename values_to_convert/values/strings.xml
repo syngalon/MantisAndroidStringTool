@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- User visible title for the keyboard shortcut that takes the user to the maps app. [CHAR LIMIT=70] -->
+    <string name="keyboard_shortcut_group_applications_maps">Maps</string>
+
+    <!-- SysUI Tuner: Label for screen about do not disturb settings [CHAR LIMIT=60] -->
+    <string name="volume_and_do_not_disturb">Do Not Disturb</string>
+
+    <!-- SysUI Tuner: Switch to control whether volume buttons enter/exit do
+         not disturb [CHAR LIMIT=60] -->
+    <string name="volume_dnd_silent">Volume buttons shortcut</string>
+
+    <!-- Name of the battery icon in status bar [CHAR LIMIT=30] -->
+    <string name="battery">Battery</string>
+
+    <!-- Name of the headset in status bar [CHAR LIMIT=30] -->
+    <string name="headset">Headset</string>
+</resources>

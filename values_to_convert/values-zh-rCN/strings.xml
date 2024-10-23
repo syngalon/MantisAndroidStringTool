@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyboard_shortcut_group_applications_maps">地图</string>
+    <string name="volume_and_do_not_disturb">勿扰</string>
+    <string name="volume_dnd_silent">音量按钮快捷键</string>
+    <string name="battery">电池</string>
+    <string name="headset">耳机</string>
+</resources>

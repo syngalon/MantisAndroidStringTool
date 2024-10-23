@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="apache.xmlbeans" type="repository">
+    <properties maven-id="org.apache.xmlbeans:xmlbeans:5.2.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/xmlbeans-5.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.23.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
