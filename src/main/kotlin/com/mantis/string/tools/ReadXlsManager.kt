@@ -84,11 +84,13 @@ class ReadXlsManager private constructor() : BaseSheet() {
                     var value: String
                     if (j == 0) {
                         value = cell.toString()
+                        println("readFirstRow, value: $value")
                         if (value.contains("type_array")) {
                             isArrayFile = true
                         }
                     } else {
                         value = cell.toString()
+
                         val folderName = getFolderByLang(value)
                         println("language: $value , dir: $folderName")
 
@@ -98,6 +100,7 @@ class ReadXlsManager private constructor() : BaseSheet() {
 
                         builder?.let { createFileAndData(map[j], isArrayFile, it) }
                     }
+
                 }
             } catch (e: Exception) {
                 //println("readFirstRow, exception: $e")
@@ -137,7 +140,7 @@ class ReadXlsManager private constructor() : BaseSheet() {
             if (cIndex == 0) {
                 stringKey = value
             } else {
-				value = cell.toString().trim()
+                value = cell.toString().trim()
                 value = value.replace("% ".toRegex(), "%")
                     .replace("1 ".toRegex(), "1").replace("2 ".toRegex(), "2")
                     .replace("3 ".toRegex(), "3").replace("4 ".toRegex(), "4")

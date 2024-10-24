@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name ="nav_bar_buttons">
+		<item></item>
+		<item>剪贴板</item>
+		<item>键码</item>
+		<item>确认旋转、键盘切换器</item>
+		<item>无</item>
+	</string-array>
+
+	<string-array name ="nav_bar_layouts">
+		<item></item>
+		<item>一般</item>
+		<item>紧凑</item>
+		<item>靠左</item>
+		<item>靠右</item>
+	</string-array>
+</resources>
